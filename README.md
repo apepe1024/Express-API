@@ -1,13 +1,15 @@
 # Full Stack JavaScript Techdegree Project 11: Express API by Alessandro Pepe
 
-### Updates upon project review:
+## Updates upon project review:
 
--Rearranged and refactored.
--Fixed deprecated Mongoose seeding; broke with Mongo update.
-  -Because of this, running 'npm run seed' no longer necessary; integrated seeding into .src/index.js.
--Fixed log out bug, should be working properly now.
--Fixed course updating bug, should be working properly now.
--Fixed review creation bug, should be working properly now.
+* Rearranged and refactored.
+* Fixed deprecated Mongoose seeding; broke with Mongo update.
+  * Because of this, running 'npm run seed' no longer necessary; integrated seeding into .src/index.js.
+* Fixed log out bug, should be working properly now.
+* Fixed course updating bug, should be working properly now.
+* Fixed review creation bug, should be working properly now.
+
+### Routing
 
 * /api/courses
   * GET - Returns a list of courses
