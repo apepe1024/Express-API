@@ -1,6 +1,7 @@
 {
   "name": "express-rest-api",
   "version": "1.0.1",
+  "description": "Treehouse Techdegree Project 11, May 2018.",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon ./src/index.js localhost 5000"

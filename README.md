@@ -4,7 +4,7 @@
 
 * Rearranged and refactored.
 * Fixed deprecated Mongoose seeding; broke with Mongo update.
-  * Because of this, running 'npm run seed' no longer necessary; integrated seeding into .src/index.js.
+  * Because of this, running 'npm run seed' no longer necessary; integrated seeding into ./src/index.js.
 * Fixed log out bug, should be working properly now.
 * Fixed course updating bug, should be working properly now.
 * Fixed review creation bug, should be working properly now.
@@ -46,7 +46,7 @@ $ npm start
 http://localhost:5000
 ```
 ### Prerequisite
-[Node.js](https://nodejs.org/en/)
-[MongoDB](https://www.mongodb.com/)
-[Angular](https://angular.io/)
-Remaining dependencies listed in package.json
+* [Node.js](https://nodejs.org/en/)
+* [MongoDB](https://www.mongodb.com/)
+* [Angular](https://angular.io/)
+* Remaining dependencies listed in package.json.
