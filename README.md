@@ -3,7 +3,8 @@
 ### Updates upon project review:
 
 -Rearranged and refactored.
--Running 'npm run seed' no longer necessary, integrated seeder.js.
+-Fixed deprecated Mongoose seeding; broke with Mongo update.
+  -Because of this, running 'npm run seed' no longer necessary; integrated seeding into .src/index.js.
 -Fixed log out bug, should be working properly now.
 -Fixed course updating bug, should be working properly now.
 -Fixed review creation bug, should be working properly now.
